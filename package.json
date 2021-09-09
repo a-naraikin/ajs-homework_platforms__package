@@ -1,0 +1,19 @@
+{
+  "name": "@a-naraikin/ajs-homework_platforms__package",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a-naraikin/ajs-homework_platforms__package.git"
+  },
+  "author": "a-naraikin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/a-naraikin/ajs-homework_platforms__package/issues"
+  },
+  "homepage": "https://github.com/a-naraikin/ajs-homework_platforms__package#readme"
+}
