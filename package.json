@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack --mode production"
   },
   "repository": {
     "type": "git",
@@ -15,5 +18,13 @@
   "bugs": {
     "url": "https://github.com/a-naraikin/ajs-homework_platforms__package/issues"
   },
-  "homepage": "https://github.com/a-naraikin/ajs-homework_platforms__package#readme"
+  "homepage": "https://github.com/a-naraikin/ajs-homework_platforms__package#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.10.3",
+    "@babel/core": "^7.10.3",
+    "@babel/preset-env": "^7.10.3",
+    "babel-loader": "^8.1.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12"
+  }
 }
